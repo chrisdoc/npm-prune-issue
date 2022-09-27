@@ -23,5 +23,6 @@ jobs:
         cache: 'npm'
     - run: node -v
     - run: npm -v
+    - run: npm config ls
     - run: node index.mjs
   
